@@ -1,0 +1,17 @@
+
+=== test3_class2 ===
+Overall:
+  Mean IoU          : 0.0675
+  Mean Dice         : 0.1015
+  Mean Tol-F1 (5px) : 0.1859  [P: 0.1994  R: 0.2687]
+Defect images only (82 images):
+  Mean IoU          : 0.0701
+  Mean Dice         : 0.1115
+  Mean Tol-F1 (5px) : 0.2145
+Empty-label images (defect images):
+Total empty-label   : 18
+Correctly predicted : 18
+  True Negative Rate: 0.0556
+  
+  
+  

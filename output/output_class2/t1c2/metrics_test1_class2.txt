@@ -1,0 +1,3 @@
+Evaluation results for test dataset gan-generated: {'iou': 0.03405362740159035} 
+Evaluation results for test dataset gan-generated: {'iou': 0.06007979437708855} 
+Evaluation results for test dataset gan-generated: {'iou': 0.05568332597613335} 

@@ -1,0 +1,14 @@
+
+=== test3_class1 (class_2 model) ===
+Overall:
+  Mean IoU          : 0.6824
+  Std IoU           : 0.0498
+  Mean Dice         : 0.8102
+  Mean Tol-F1 (5px) : 0.9270  [P: 0.9999  R: 0.8656]
+Defect images only (50 images):
+  Mean IoU          : 0.6824
+  Mean Dice         : 0.8102
+  Mean Tol-F1 (5px) : 0.9270
+Empty-label images (0 images):
+  Correctly predicted empty : 0
+  True Negative Rate        : 1.0000

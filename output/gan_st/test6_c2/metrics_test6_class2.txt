@@ -1,0 +1,14 @@
+
+=== test6_class2 ===
+Overall:
+  Mean IoU          : 0.0989
+  Std IoU           : 0.0475
+  Mean Dice         : 0.1767
+  Mean Tol-F1 (5px) : 0.2654  [P: 0.7440  R: 0.1661]
+Defect images only (100 images):
+  Mean IoU          : 0.0989
+  Mean Dice         : 0.1767
+  Mean Tol-F1 (5px) : 0.2654
+Empty-label images (0 images):
+  Correctly predicted empty : 0
+  True Negative Rate        : 1.0000
