@@ -94,47 +94,36 @@ The repository is organized as follows:
 
 ## Main Files
 
-### `run_domain_adaptation_alloy_class2.py`
+#### `run_domain_adaptation_alloy_class2.py`
 
 Trains the SAM model with Conv-LoRA adapters on the **Alloy Microstructure Class-2** dataset. This stage serves as the intermediate domain adaptation before transferring to XCT images.
 
 ---
 
-### `run_domain_adaptation_alloy_class3.py`
+#### `run_domain_adaptation_alloy_class3.py`
 
 Trains the SAM model with Conv-LoRA adapters on the **Alloy Microstructure Class-3** dataset, providing an alternative intermediate adaptation setting.
 
 ---
 
-### `run_semantic_segmentation_alloy_class_2.py`
+#### `run_semantic_segmentation_alloy_class_2.py`
 
 Finetunes and evaluates the adapted model on the **CycleGAN Synthetic XCT defect segmentation dataset** for pore segmentation (class_2), representing the final stage of sequential domain adaptation.
 
 ---
 
-### `run_semantic_segmentation_alloy_class_3.py`
+#### `run_semantic_segmentation_alloy_class_3.py`
 
 Finetunes and evaluates the adapted model on the **CycleGAN Synthetic XCT defect segmentation dataset** for inclusion segmentation (class_3), representing the final stage of sequential domain adaptation.
 
 ---
 
-### `run_semantic_segmentation_nist.py`
+#### `run_semantic_segmentation_nist.py`
 
 Evaluates the adapted model on the **real NIST XCT defect segmentation dataset**, representing the final stage of sequential domain adaptation.
 
 ---
 
-## Training Scripts
-
-### `run_df.sh`
-
-Shell script for launching training using the default experiment configuration.
-
----
-
-### `run_xct_bce.sh`
-
-Runs XCT 
 
 
 # Our Related Works
@@ -145,4 +134,4 @@ coming...
 
 ## Contact
 
-For any questions, issues, or suggestions related to this repository, please feel free to contact us or open an issue on GitHub.
+For any questions, issues, or suggestions related to this repository, please feel free to contact @Mahedi-61 or open an issue on GitHub.
