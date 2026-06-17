@@ -143,15 +143,15 @@ Evaluates the adapted model on the **real NIST XCT defect segmentation dataset**
 
 # Training
 
-Run the following command to trained the model:
+Run the following command to trained the model for pore segmentation:
 
 ```bash
 python3 run_semantic_segmentation_alloy_class_2.py \
-    --dataset_dir datasets/gan-generated \
-    --ckpt_path AutogluonModels/alloy_to_xct_focal/class_2 \
+    --dataset_dir datasets/<value> \
+    --ckpt_path AutogluonModels/<value> \
     --output_dir output/<value> \
     --data_name <value> \
-    --alloy_ckpt_path <value> \
+    --alloy_ckpt_path AutogluonModels/<value> \
     --num_gpus <value> \
     --batch_size <value> \
     --rank 2 <value> 
