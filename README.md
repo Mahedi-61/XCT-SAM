@@ -51,11 +51,6 @@ parameter-efficient learning provides an effective solution for
 industrial defect segmentation in additive manufacturing.
 
 
-## Files
-- **TabSeq_arxiv.pdf**: Research paper (pre-print) describing the framework.
-- **binary.py**: Implementation for binary classification tasks.
-- **multiclass.py**: Implementation for multi-class classification tasks.
-
 ## Requirements
 - Python 3.8+
 - torch >= 2.0, torchvision, autogluon.multimodal, transformers, Pillow, numpy, pandas, scipy, opencv-python, matplotlib
